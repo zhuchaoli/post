@@ -129,7 +129,7 @@ public class UserMapStructTest {
 
 这个在编译期生成的代码，性能比反射要快不少。
 
-![img](https://angogo.feishu.cn/space/api/box/stream/download/asynccode/?code=MWNlNDA5ZDk3MGE5MzhjZDJkYzRjYzY1NzhhNmI0YWJfVExxU0ZmbWJEODVoT2FmdFFaUHhqMUs5RGVTZ2pGUjFfVG9rZW46Ym94Y256bENvcG90Nm9XNm1DNHg5YVVIZ2ZjXzE2MjgzMTcxMzE6MTYyODMyMDczMV9WNA)
+![img](https://p.pstatp.com/origin/pgc-image/d22090c2f534485f8c6bd83c54e68b23)
 
 2、MapStruct是利用编译期动态生成set/get代码的class文件 ，在运行时直接调用该class文件。 该方式实际上仍会存在set/get代码，只是不需要自己手写。
 
@@ -148,12 +148,12 @@ public class UserMapStructTest {
 - 当多个原对象中，有相同名字的属性时，需要通过 @Mapping 注解来具体的指定，以免出现歧义
 - 当有多个属性不一致时，有两种解决方式
 
-![img](https://angogo.feishu.cn/space/api/box/stream/download/asynccode/?code=ODZhYjExMWNlZTUyMjYyZjE4MzBjZTM4OGY2NWY5ZDNfMHhOZjdrcUZ0UXFZdUI1TXJNOVlmcnJnRjFib0ZPYnJfVG9rZW46Ym94Y24zZnlUS3BUUDcwcjRtOXVKcmRBcHlHXzE2MjgzMTcxMzE6MTYyODMyMDczMV9WNA)
+![img](https://p.pstatp.com/origin/pgc-image/af2a94a1376d4b218c4261d90d64b577)
 
 1. 添加多个@Mapping（推荐）
 2. 用@Mappings将多个@Mapping包起来（sonar检测会告警，不影响使用）
 
-![img](https://angogo.feishu.cn/space/api/box/stream/download/asynccode/?code=NGI3MzUwZjY5ZjE5N2M2NGQwM2RjYjFiYzM0NTk5NGVfcHZDOHRicDhoMVd3QXZ0dW1KS2JnMFYzU2paRWx6ZVZfVG9rZW46Ym94Y25UZXNMQWowM2V2bjl3ekRHeEFOWW9BXzE2MjgzMTcxMzE6MTYyODMyMDczMV9WNA)
+![img](https://p.pstatp.com/origin/pgc-image/0126683c9497427b84f38ba846c42b49)
 
 ### 参考资料：
 
