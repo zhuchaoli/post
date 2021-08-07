@@ -2,6 +2,7 @@
 title: MapStruct对象转换工具
 date: 2021-08-07 14:17:49
 tags: MapStruct
+categories: Java
 ---
 
 ### **MapStruct简单介绍**

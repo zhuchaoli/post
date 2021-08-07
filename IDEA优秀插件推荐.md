@@ -2,6 +2,7 @@
 title: IDEA优秀插件推荐
 date: 2021-08-07 14:48:47
 tags: IDEA插件
+categories: Java
 ---
 
 # 版本控制

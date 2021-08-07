@@ -2,6 +2,7 @@
 title: Java缓存框架JetCache介绍和使用
 date: 2021-08-07 01:15:24
 tags: JetCache
+categories: Java
 ---
 
 # 一、简介
